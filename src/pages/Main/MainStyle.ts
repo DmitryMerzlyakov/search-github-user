@@ -13,7 +13,8 @@ export const Result = styled.div`
 export const Footer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  width: 90%;
+  align-items: center;
 `
 export const None = styled.div`
   height: 100%;

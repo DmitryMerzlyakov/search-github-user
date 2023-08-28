@@ -6,7 +6,6 @@ interface IProps {
   currentPageNumber: number
   totalPages: number
   onChange: (page: number) => void
-  setCurrentPageNumber: (value: number) => void
 }
 
 const Pagination = ({ currentPageNumber, totalPages, onChange }: IProps) => {

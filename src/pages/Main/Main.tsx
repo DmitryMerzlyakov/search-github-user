@@ -78,7 +78,6 @@ const Main = () => {
                 onChange={handlePageChange}
                 currentPageNumber={currentPageNumber}
                 totalPages={Math.ceil(allUsers / PER_PAGE)}
-                setCurrentPageNumber={setCurrentPageNumber}
               />
             </S.Footer>
           </S.Result>

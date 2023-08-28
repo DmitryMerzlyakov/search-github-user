@@ -17,7 +17,7 @@ export const Search = styled.div`
 `
 
 export const Button = styled.button`
-  width: 97px;
+  width: 30%;
   flex-shrink: 0;
   border-radius: 10px;
   border: 2px solid #000;
@@ -34,6 +34,7 @@ export const Button = styled.button`
 `
 
 export const Input = styled.input`
+  width: 70%;
   padding: 5px;
   border-radius: 10px;
   border: 2px solid #000;

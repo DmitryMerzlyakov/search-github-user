@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Sort = styled.div`
-  height: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,9 +11,10 @@ export const Sort = styled.div`
 `
 
 export const Button = styled.button`
+  height: 20%;
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 5px;
   font-size: 18px;
   border-radius: 10px;
   border: 2px solid #000;
